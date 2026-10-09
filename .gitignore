@@ -1,2 +1,19 @@
-runs/**/tmp/
-runs/**/logs/
+# OpenLane / physical-design build outputs
+runs/
+*.gds
+*.mag
+*.magic.gds
+*.def
+*.odb
+*.spef
+*.sdf
+
+# Simulation artifacts
+*.vcd
+*.fst
+*.vvp
+obj_dir/
+*.log
+
+# Reports
+*.rpt
