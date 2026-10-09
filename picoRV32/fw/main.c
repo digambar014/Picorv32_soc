@@ -25,7 +25,7 @@ int main(void)
     int i;
 
     for (i = 0; i < 10; i++)
-        uart_puts("Hello Deepak from Nielit!\n");
+        uart_puts("Hello Digambar Singh\n");
 
     return 0;
 }
